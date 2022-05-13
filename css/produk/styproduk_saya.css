@@ -1,0 +1,47 @@
+.category .box-container .box img{
+    width: 10rem;
+    margin:.3rem 0;
+  }
+
+  .category h1 {
+      text-align: center;
+      background-color: rgb(131, 231, 231);
+      display: block;
+      padding: .8rem 5%;
+  }
+
+  .category h1 span{
+      color: rgb(68, 128, 128);
+  }
+  
+
+.category .box-container .box .btn{
+    display: block;
+    background-color: rgb(14, 214, 14);
+    text-align: center;
+    text-decoration: none;
+    padding: .4rem 5%;
+    border-radius: .2rem;
+    color: black;
+  }
+
+
+  .category .box-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    
+  }
+
+  .category .box-container .box{
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1rem;
+    flex:1 1 20rem;
+  }
+
+  .category .box-container .box h3{
+    font-size: 2rem;
+  }

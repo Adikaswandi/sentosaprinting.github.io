@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    padding: 15px;
+}
+
+.header h2 {
+    display: block;
+    background-color: cadetblue;
+    border-radius: .2rem;
+    text-align: center;
+    padding: 1.2rem;
+
+}
+
+.keranjang {
+    display: flex;
+}
+
+.item {
+    width: 97%;
+    border-radius: .2rem;
+    height: 150px;
+    background: rgb(176, 208, 209);
+    margin-top: 10px;
+    padding: 1.2rem;
+}
+
+.item span {
+    margin-left: 15px;
+    font-size: 1.5em;
+}
+
+.item img {
+    width: 130px;
+    position: absolute;
+    right: 10%;
+
+}

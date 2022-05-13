@@ -1,0 +1,42 @@
+.image img{
+    width: 150px;
+    border-radius: 2px;
+    transition: .2s;
+    box-shadow: 2px 2px 3px gray;
+ }
+
+.image img:hover {
+    transform: scale(1.5);
+ }
+ 
+
+body{
+    padding: 15px
+    }
+
+table{
+    border-spacing: 0px;
+    }
+
+td, th{
+    padding: 15px;
+    }
+
+tr:hover{
+    font-weight: bold;
+    color: black;
+
+    }
+
+pre {
+    font-size: 15px;
+    }
+
+.table {
+    color: black;
+    }
+
+.table_judul th {
+    background-color: rgba(99, 100, 99, 0.623);
+
+    }
